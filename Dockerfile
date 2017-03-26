@@ -1,6 +1,6 @@
 FROM php:5.6-apache
 
-ENV DOMAIN nextcloud
+ENV DOMAIN nextcloud.io
 
 RUN apt-get update && apt-get install -y \
   bzip2 \
